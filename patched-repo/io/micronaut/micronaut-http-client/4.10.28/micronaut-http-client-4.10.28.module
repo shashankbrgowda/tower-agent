@@ -1,0 +1,195 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut",
+    "module": "micronaut-http-client",
+    "version": "4.10.28",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.17"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-context",
+          "version": {
+            "requires": "4.10.28"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-http-client-core",
+          "version": {
+            "requires": "4.10.28"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-websocket",
+          "version": {
+            "requires": "4.10.28"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-http-netty",
+          "version": {
+            "requires": "4.10.28"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-handler-proxy",
+          "version": {
+            "requires": "4.2.18.Final"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "micronaut-http-client-4.10.28.jar",
+          "url": "micronaut-http-client-4.10.28.jar",
+          "size": 269954,
+          "sha512": "c96b02adf879babe749fbda4de7db15d0a64f5b00843dc19219dc5b9fdc0d8f98c59f92224058c8c87d51e832fbe3f6369c3131110dd0d2440bf151fdc0dce64",
+          "sha256": "98a50a0ae1ba6dc793b66349f097ca59d2e58e9d70e3dedf07c8a8e885a2b705",
+          "sha1": "d5dbd2bcedf0104f8245acc3b0bddf9256a62a4e",
+          "md5": "4952800217ddf59ef7eea5d0c9bde1b5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.projectreactor",
+          "module": "reactor-core",
+          "version": {
+            "requires": "3.7.12"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.17"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-context",
+          "version": {
+            "requires": "4.10.28"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-http-client-core",
+          "version": {
+            "requires": "4.10.28"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-websocket",
+          "version": {
+            "requires": "4.10.28"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-http-netty",
+          "version": {
+            "requires": "4.10.28"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-handler-proxy",
+          "version": {
+            "requires": "4.2.18.Final"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "micronaut-http-client-4.10.28.jar",
+          "url": "micronaut-http-client-4.10.28.jar",
+          "size": 269954,
+          "sha512": "c96b02adf879babe749fbda4de7db15d0a64f5b00843dc19219dc5b9fdc0d8f98c59f92224058c8c87d51e832fbe3f6369c3131110dd0d2440bf151fdc0dce64",
+          "sha256": "98a50a0ae1ba6dc793b66349f097ca59d2e58e9d70e3dedf07c8a8e885a2b705",
+          "sha1": "d5dbd2bcedf0104f8245acc3b0bddf9256a62a4e",
+          "md5": "4952800217ddf59ef7eea5d0c9bde1b5"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-http-client-4.10.28-sources.jar",
+          "url": "micronaut-http-client-4.10.28-sources.jar",
+          "size": 104344,
+          "sha512": "472e211673d6507c11cf9fe5fd38f90383be82194e8bd2a24ccf3ec040483c54fa59e5f088671afbc6b7b16a973eb25ae95c75d3cfe1ada1a029c1ac0027fce8",
+          "sha256": "c8719aef66110f341aac34f8747bf7b9cddf400af52d6373b3bca728c8ef74a9",
+          "sha1": "fc96c5635bc000b7106fce2c2bfec6f8fd73ad58",
+          "md5": "fe3d7b78cddac19e5001c12b38620ddc"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-http-client-4.10.28-javadoc.jar",
+          "url": "micronaut-http-client-4.10.28-javadoc.jar",
+          "size": 182081,
+          "sha512": "d22819ed4e2fb86b96dc0fc3200d7a10c6e661e464d160f6f1a5382dea5b545ac8f0750232ef3ac13afb04940df40f931156e8117c6890bc43296e4574c4d21a",
+          "sha256": "9d35ca37cc3ff4eb6f5740c8fda03fd6c1e293619482d4616bb0714804534ae3",
+          "sha1": "df51a160df38b91f114e1cdd36f79bd59b67e894",
+          "md5": "576f71d19383c9f2d4439cc894f95101"
+        }
+      ]
+    }
+  ]
+}

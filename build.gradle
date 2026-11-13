@@ -20,6 +20,16 @@ version = project.file('VERSION').text.strip()
 group = "io.seqera.tower.agent"
 
 repositories {
+    // Patched micronaut-http-client 4.10.28 with the WebSocket proxy fix
+    // (micronaut-projects/micronaut-core#14446). See patched-repo/README.md.
+    exclusiveContent {
+        forRepository {
+            maven { url = uri("$rootDir/patched-repo") }
+        }
+        filter {
+            includeVersion("io.micronaut", "micronaut-http-client", "4.10.28")
+        }
+    }
     mavenCentral()
 }
 
